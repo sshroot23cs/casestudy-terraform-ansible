@@ -1,6 +1,6 @@
 aws_profile       = "nichethyselfprofile"
 aws_region        = "us-east-2"
-db_instance_class = "db.t2.micro"
+db_instance_class = "db.t3.micro"
 dbname		  = "nichethyselfdb"
 dbidentifier  = "wordpressdb"
 dbuser		  = "nichethyself"
