@@ -1,8 +1,8 @@
 - hosts: dev
   vars:
-    php_version: '7.3'
+    php_version: '7.4'
   become: 'yes'
-  remote_user: centos
+  remote_user: ec2-user
   roles:
     - role: geerlingguy.repo-remi
       when: ansible_os_family == 'RedHat'
